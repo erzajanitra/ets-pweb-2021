@@ -1,6 +1,6 @@
 body{
 	background: #FEFEF3 !important;
-	    font-family: 'Manrope', sans-serif;
+	font-family: 'Manrope', sans-serif;
 }
 /* navbar */
 
@@ -32,7 +32,7 @@ body{
 
 @media (min-width: 768px) {
     .omb_row-sm-offset-3 div:first-child[class*="col-"] {
-        margin-left: 25%;
+        margin-left: 15%;
     }
 }
 
