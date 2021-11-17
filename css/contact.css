@@ -1,0 +1,177 @@
+body{
+	background: #FEFEF3 !important;
+	    font-family: 'Manrope', sans-serif;
+}
+/* navbar */
+
+.navbar{
+    background: #FEFEF3 !important;
+    /* float: left; */
+    padding-left: 10px;
+	/* font-family: 'Manrope', sans-serif; */
+
+}
+
+.navbar .nav-item{
+    /* padding-left: 2rem; */
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+.navbar .nav-item .nav-link{
+    font-size: 25;
+    font-weight: 700;
+    color: 00000;
+    margin: 50 !important;
+    padding: 100 !important;
+    margin-left: 50px;
+    
+}
+
+
+@media (min-width: 768px) {
+    .omb_row-sm-offset-3 div:first-child[class*="col-"] {
+        margin-left: 25%;
+    }
+}
+
+.omb_login .omb_authTitle {
+	/* padding-top: 8rem; */
+    color: white; 
+	text-align: center;
+	line-height: 100%;
+	padding-bottom: 6rem;
+}
+	
+.omb_login .omb_socialButtons a {
+	color: white; 
+	opacity:0.9;
+}
+.omb_login .omb_socialButtons a:hover {
+    color: white;
+	opacity:1;    	
+}
+
+.omb_login .omb_socialButtons .omb_btn-facebook {background: #3b5998;}
+.omb_login .omb_socialButtons .omb_btn-twitter {background: #00aced;}
+.omb_login .omb_socialButtons .omb_btn-google {background: #c32f10;}
+
+
+.omb_login .omb_loginOr {
+	position: relative;
+	font-size: 1.5em;
+	color: white;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+.omb_login .omb_loginOr .omb_hrOr {
+	margin-right: 32rem;
+	background-color: black;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_hrOr2 {
+	margin-left: 32rem;
+	background-color: black;
+	height: 1px;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+.omb_login .omb_loginOr .omb_spanOr {
+	color: white;
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: -0.6em;
+	margin-left: -1.5em;
+	/* opacity: 0.4;
+	background-color: black; */
+	width: 3em;
+	text-align: center;
+}			
+
+.omb_login .omb_loginForm .input-group.i {
+	width: 2em;
+}
+.omb_login .omb_loginForm  .help-block {
+    color: red;
+}
+
+	
+@media (min-width: 768px) {
+    .omb_login .omb_forgotPwd {
+        text-align: right;
+		margin-top:10px;
+ 	}		
+}
+
+
+
+.contact-form{
+    background:  #FEFEF3 !important;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+}
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: 3%;
+    transform: rotate(29deg);
+}
+.contact-form form{
+	padding-left: 4rem;
+	padding-right: auto;
+	padding-top: 10rem;
+    /* padding: 15%; */
+}
+.contact-form form .row{
+    margin-bottom: 7%;
+}
+.contact-form h2{
+    margin-bottom: 12%;
+    margin-top: -8%;
+    text-align: center;
+    color: #0062cc;
+}
+.contact-form h3{
+	font-size: 14px;
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: black;
+}
+.contact-form .btnContact {
+
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    /* padding: 1.5%; */
+    background: #0062cc;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+	margin-top: 4rem;
+	margin-left: 36rem; 
+}
+.btnContactSubmit
+{
+	align-items: center;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: black;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}

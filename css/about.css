@@ -1,0 +1,36 @@
+body{
+    font-family: 'Manrope', sans-serif;
+}
+
+.navbar{
+    background: #FEFEF3 !important;
+    /* float: left; */
+    padding-left: 10px;
+}
+
+.navbar .nav-item{
+    /* padding-left: 2rem; */
+    margin: 0 !important;
+    padding: 0 !important;
+    
+}
+
+.navbar .nav-item .nav-link{
+    font-size: 20;
+    font-weight: 700;
+    color: 00000;
+    margin: 50 !important;
+    padding: 100 !important;
+    margin-left: 50px;
+    
+}
+
+
+.experiences{
+    padding-top: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 8rem;
+       background: #FEFEF3 !important;
+       text-align: justify
+}
